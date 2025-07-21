@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "ap-south-1"
-}
-
 # S3 bucket for storing Terraform state
 resource "aws_s3_bucket" "tf_state" {
   bucket = "ashok-eks-terraform-state"
