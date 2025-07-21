@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "tf_state" {
   bucket = "ashok-eks-terraform-state"
 
   tags = {
-    Name = "TerraformState"
+    Name        = "TerraformState"
     Environment = "Dev"
   }
 
@@ -41,7 +41,7 @@ resource "aws_dynamodb_table" "tf_locks" {
   }
 
   tags = {
-    Name = "TerraformLockTable"
+    Name        = "TerraformLockTable"
     Environment = "Dev"
   }
 }
