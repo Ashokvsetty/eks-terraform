@@ -1,2 +1,2 @@
 # eks-terraform
-eks-terraform
+eks-terraform project
