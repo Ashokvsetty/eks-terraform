@@ -34,3 +34,4 @@ module "eks" {
 
   enable_irsa = true
 }
+resource "null_resource" "test" {}
