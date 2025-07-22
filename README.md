@@ -1,2 +1,2 @@
 # eks-terraform
-eks-terraform project update
+eks-terraform project fix All
